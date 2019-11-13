@@ -6,16 +6,16 @@
       
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
-            <li>
+            <li class="{{ set_active_route('root_path') }}">
             <a class="nav-link" href="{{ route('root_path') }}">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="{{set_active_route('about_path')}}">
               <a class="nav-link" href="{{ route('about_path') }}">About</a>
             </li>
-            <li class="nav-item">
+            <li>
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Artisans</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Planet</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="https://laravel.com">Laravel.com</a>
