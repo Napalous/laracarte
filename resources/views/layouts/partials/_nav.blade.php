@@ -26,8 +26,8 @@
                 <a class="dropdown-item" href="https://larachat.com">Larachat</a>
               </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            <li class="{{set_active_route('contact_path')}}">
+            <a class="nav-link" href="{{ route('contact_path') }}" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav navbar-right">
