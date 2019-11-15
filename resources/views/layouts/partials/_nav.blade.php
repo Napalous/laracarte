@@ -13,7 +13,7 @@
               <a class="nav-link" href="{{ route('about_path') }}">About</a>
             </li>
             <li>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Artisans</a>
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Artisans</a>
             </li>
             <li class="dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Planet</a>
